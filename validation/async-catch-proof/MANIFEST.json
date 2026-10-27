@@ -1,0 +1,241 @@
+{
+  "kind": "PUBLIC_ARTIFACT_BYTE_MANIFEST",
+  "baselineCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b",
+  "candidateCommit": "511b29052629df0d3c95c53311bd71a7dbc7eb71",
+  "candidateTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3",
+  "fileCountExcludingThisManifest": 46,
+  "bytesExcludingThisManifest": 196300,
+  "manifestSelfHash": "Not self-referential; final external whitelist includes the exact MANIFEST.json byte hash.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "consumers.DERIVED.json",
+      "bytes": 5410,
+      "sha256": "bc0eb0a8abe3c7fba6d4b89605850cc63e7bdd6d73ca42aade8daf0820042a86"
+    },
+    {
+      "path": "evidence/linux-bun-base-test.txt",
+      "bytes": 58,
+      "sha256": "6faeba431b543bb35bee7eb1fcbfb5dbfdca0d3dce855ce74295950647ad05f8"
+    },
+    {
+      "path": "evidence/linux-bun-candidate-test.txt",
+      "bytes": 58,
+      "sha256": "93f8fb6979253688835be4c4e678a4688551ce4f8a07160575f9ca5a62cee578"
+    },
+    {
+      "path": "evidence/linux-deno2-base-newyork-test.txt",
+      "bytes": 66,
+      "sha256": "e7caa245e209cfbc666b47374f94ba89bf3274fdd4644074e20c9e66e04886e7"
+    },
+    {
+      "path": "evidence/linux-deno2-base-precommit.txt",
+      "bytes": 166,
+      "sha256": "f76a4dabe203b309f5a02cb8452779499247392dc6d19426c8a7d405acfd8585"
+    },
+    {
+      "path": "evidence/linux-deno2-base-publish-dryrun.txt",
+      "bytes": 38,
+      "sha256": "7122a31ef0129bcb0e1389553fa336b507ea4c9397bfaf3c548a7001c2ae1b5d"
+    },
+    {
+      "path": "evidence/linux-deno2-base-test.txt",
+      "bytes": 66,
+      "sha256": "e7caa245e209cfbc666b47374f94ba89bf3274fdd4644074e20c9e66e04886e7"
+    },
+    {
+      "path": "evidence/linux-deno2-candidate-newyork-test.txt",
+      "bytes": 66,
+      "sha256": "689a21b5455a4ec738489961caedefc4ccf18df169766f3dbdf6270caf4c0a17"
+    },
+    {
+      "path": "evidence/linux-deno2-candidate-precommit.txt",
+      "bytes": 166,
+      "sha256": "00185c282cab501b8f30d3024b3f3b3c03a0680c5c117a8c4441a374180fc8c4"
+    },
+    {
+      "path": "evidence/linux-deno2-candidate-publish-dryrun.txt",
+      "bytes": 38,
+      "sha256": "7122a31ef0129bcb0e1389553fa336b507ea4c9397bfaf3c548a7001c2ae1b5d"
+    },
+    {
+      "path": "evidence/linux-deno2-candidate-test.txt",
+      "bytes": 66,
+      "sha256": "689a21b5455a4ec738489961caedefc4ccf18df169766f3dbdf6270caf4c0a17"
+    },
+    {
+      "path": "evidence/linux-node18-candidate-installer-recovery-test.txt",
+      "bytes": 105,
+      "sha256": "46ca3fbf82728811aa5516ca1a2f9a21ca95bf639a7a35efb23b4e31512f70b1"
+    },
+    {
+      "path": "evidence/linux-node18-clean-base-test.txt",
+      "bytes": 105,
+      "sha256": "1702b22610759c631519c29ef166267f3d1c6ea9d8fa9249ad25eae2621d46a8"
+    },
+    {
+      "path": "evidence/linux-node20-base-recovery-test.txt",
+      "bytes": 104,
+      "sha256": "038334b9095d658887df29b17de4457d2b45bf7126365cd1043734b5b340c5d6"
+    },
+    {
+      "path": "evidence/linux-node20-candidate-recovery-test.txt",
+      "bytes": 105,
+      "sha256": "22cac8d393bc519b30775bf8c1ba3ef6332a5c1492a007ea261753b555602bcd"
+    },
+    {
+      "path": "evidence/linux-node22-base-test.txt",
+      "bytes": 105,
+      "sha256": "fe9ec855ae1d5412861054960d6922c78abc718b3d4b5def7f58a102b3f6ddd9"
+    },
+    {
+      "path": "evidence/linux-node22-candidate-test.txt",
+      "bytes": 105,
+      "sha256": "674c8177d75954dba842a904a29ac171b9bee385d2e204f70e077cf768dfa196"
+    },
+    {
+      "path": "evidence/linux-node24-base-build.txt",
+      "bytes": 212,
+      "sha256": "21c5cd4d6185bd2b4551af4033f9c0fa405a22d363d9d19624c20195542d357d"
+    },
+    {
+      "path": "evidence/linux-node24-base-newyork-test.txt",
+      "bytes": 121,
+      "sha256": "d4b25c37f715a5360a9600e556c5a6d3b44d8a469f92b979fa3a5a4e6c638054"
+    },
+    {
+      "path": "evidence/linux-node24-base-precommit.txt",
+      "bytes": 121,
+      "sha256": "51b7cc4086b3b7eacb40216317054e9351bbc1150650b5816b212591edace30e"
+    },
+    {
+      "path": "evidence/linux-node24-candidate-build.txt",
+      "bytes": 211,
+      "sha256": "d0481bc76ab589200a014ff7d81d78ce02f1669ba8ddf27b37bf942de7711487"
+    },
+    {
+      "path": "evidence/linux-node24-candidate-newyork-test.txt",
+      "bytes": 120,
+      "sha256": "076a9ba4b96f8f5c29b9eabd0d52f35d0f606e7b058d072e271b88c9667daa04"
+    },
+    {
+      "path": "evidence/linux-node24-candidate-precommit.txt",
+      "bytes": 121,
+      "sha256": "5e312c556f50ab08a4ae8d26ff8f68e0e5559de48769e25eb04c553a9f256890"
+    },
+    {
+      "path": "evidence/linux-node26-base-install-default-warning.txt",
+      "bytes": 300,
+      "sha256": "960379ab2b6e16c97f4063bcd816d9df4cc6c32cbcc2d926fac49aca2dc92829"
+    },
+    {
+      "path": "evidence/linux-node26-base-test.txt",
+      "bytes": 121,
+      "sha256": "80cb52f617df83fbb50cb459a4b55367555541cdbacb8a7b8256da123f998d25"
+    },
+    {
+      "path": "evidence/linux-node26-candidate-install-default-warning.txt",
+      "bytes": 300,
+      "sha256": "960379ab2b6e16c97f4063bcd816d9df4cc6c32cbcc2d926fac49aca2dc92829"
+    },
+    {
+      "path": "evidence/linux-node26-candidate-test.txt",
+      "bytes": 121,
+      "sha256": "e67899b645f89070583011e5f4b9edd55bb1423bc3e636b401e94627f1d200d0"
+    },
+    {
+      "path": "evidence/windows-base-la-ocps14.txt",
+      "bytes": 115,
+      "sha256": "5717a08b8c3d768b2bc164affe8778d485989794f70b74b0ec063de4416bc3cf"
+    },
+    {
+      "path": "evidence/windows-base-public-reproducer.txt",
+      "bytes": 35,
+      "sha256": "4c579642d0fe025c4e5e1f4b22a99cc3ad86d002814ef72115f0046b2734156a"
+    },
+    {
+      "path": "evidence/windows-base-regressions.txt",
+      "bytes": 114,
+      "sha256": "a8e5bf59e47f0bf2ad259b27024040b09bd4bdc9a8bb0722a90d3d1f80bd10ec"
+    },
+    {
+      "path": "evidence/windows-base-utc-build.txt",
+      "bytes": 210,
+      "sha256": "be2fdb90a865817425ac1f2aa4dcacbf398c213e02b7de9711aa9bc325237f17"
+    },
+    {
+      "path": "evidence/windows-base-utc-precommit.txt",
+      "bytes": 119,
+      "sha256": "86452b25077b14e4c32c975642b50d6535e3fccaacb59bdd8bc221b48b004810"
+    },
+    {
+      "path": "evidence/windows-candidate-la-ocps14.txt",
+      "bytes": 115,
+      "sha256": "5e8b59b4f545a8099a074a0ebbb0958836f1b2affda128297e0baa2771c2f5f1"
+    },
+    {
+      "path": "evidence/windows-candidate-public-reproducer.txt",
+      "bytes": 45,
+      "sha256": "dcd5cb07f7bbdf7f8870691ca3ff520f687605a6ec1bd6ac5d7b3ca114124020"
+    },
+    {
+      "path": "evidence/windows-candidate-regressions.txt",
+      "bytes": 114,
+      "sha256": "aebe37ac119219856679505eb7bc43011c194b9c5fce6c2c173a94cab0122838"
+    },
+    {
+      "path": "evidence/windows-candidate-utc-build.txt",
+      "bytes": 210,
+      "sha256": "d9e4bcdabe07ff7282b57a810a147ef57ae87565381d99585027d49f508c9de8"
+    },
+    {
+      "path": "evidence/windows-candidate-utc-precommit.txt",
+      "bytes": 119,
+      "sha256": "8b10cac09395830cc2c62106e470b626d036c09b84e391feb36c0251940d6d7a"
+    },
+    {
+      "path": "excerpts.DERIVED.json",
+      "bytes": 17337,
+      "sha256": "92b7f97c84e2de8306c29fd2eede44fa45a5d187dea64a77b3cbe5e0a2a266a9"
+    },
+    {
+      "path": "gates.DERIVED.json",
+      "bytes": 62074,
+      "sha256": "b90bb38fac3a302fadac9087fbf2e93e17e5cc2b9579db7090e17b57f2d589c1"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1123,
+      "sha256": "d1c89d2de9ab5785f68c69473d5e10f1ff0e5dbacef88e2aecbd6eaf89b63003"
+    },
+    {
+      "path": "package-audit.DERIVED.json",
+      "bytes": 5033,
+      "sha256": "51cde38275cad50b4a7f543662fff14d19b6ff1fad291260aea2795a67cd3919"
+    },
+    {
+      "path": "packages/baseline.tgz",
+      "bytes": 46258,
+      "sha256": "0bf9cde06124f087a26ce067a4b75f40743d521b18d9bb9e7a126f402794ece4"
+    },
+    {
+      "path": "packages/candidate.tgz",
+      "bytes": 46302,
+      "sha256": "5224222baca309f206c4ffac047a838e1b5cbecc1f2030308aa6c1a3c2885b56"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7644,
+      "sha256": "195e2e407c633207b1c505719ed67a68f4668824f539f450a1330fe99d99f122"
+    },
+    {
+      "path": "reproduce.mjs",
+      "bytes": 750,
+      "sha256": "7cd5899e2ee19da85cb16ac509cc20091ad0c592c9320b2caf176d3faa0d8dbd"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+[0m[32mTask[0m [0m[36mpre-commit[0m deno fmt --check && deno lint && deno check src/croner.ts
+Checked 36 files
+Checked 7 files
+[0m[32mCheck[0m src/croner.ts

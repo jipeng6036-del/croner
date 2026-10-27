@@ -1,0 +1,13 @@
+ℹ tests 678
+ℹ suites 0
+ℹ pass 678
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 43922.786586
+
+> croner@11.0.0 build:dist
+> tsx build/build.ts build
+
+All builds completed successfully.

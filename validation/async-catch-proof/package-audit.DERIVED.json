@@ -1,0 +1,126 @@
+{
+  "kind": "DERIVED_REVIEW_SUMMARY",
+  "packages": {
+    "base": {
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b",
+      "archiveSHA256": "0bf9cde06124f087a26ce067a4b75f40743d521b18d9bb9e7a126f402794ece4",
+      "bytes": 46258,
+      "members": [
+        {
+          "path": "LICENSE",
+          "bytes": 1123,
+          "sha256": "d1c89d2de9ab5785f68c69473d5e10f1ff0e5dbacef88e2aecbd6eaf89b63003",
+          "mode": "0o644",
+          "matchesGitSourceIgnoringNewlines": true
+        },
+        {
+          "path": "dist/croner.cjs",
+          "bytes": 31637,
+          "sha256": "16c9b7add2dbefc07a0d5aa171caeeaa5b33236c039bf3a1563c3f3706ccc364",
+          "mode": "0o644"
+        },
+        {
+          "path": "dist/croner.d.cts",
+          "bytes": 32026,
+          "sha256": "15ebff7c2bdded61004857e38e4bf557228a6d88f5f187d760712ef9156223a0",
+          "mode": "0o644"
+        },
+        {
+          "path": "dist/croner.js",
+          "bytes": 31117,
+          "sha256": "3189703a00317d28e38c96197508690c1d1e25986f55ba12a4d47b0f6d738471",
+          "mode": "0o644"
+        },
+        {
+          "path": "dist/croner.umd.js",
+          "bytes": 31407,
+          "sha256": "731e2964cf8649e635c24549202d3dccc6c9d5406f1fd65c770e8f7069add9f3",
+          "mode": "0o644"
+        },
+        {
+          "path": "package.json",
+          "bytes": 2437,
+          "sha256": "c9e08571a11852f25b1436d5a963132f9cd75b2ce8c3b3d70098e48c71bf8111",
+          "mode": "0o644",
+          "matchesGitSourceIgnoringNewlines": true
+        },
+        {
+          "path": "README.md",
+          "bytes": 25442,
+          "sha256": "bcc4a20ecfcfcbaba229291c7f7c883ddaf039246d9d9e7691676850732ce4fb",
+          "mode": "0o644",
+          "matchesGitSourceIgnoringNewlines": true
+        },
+        {
+          "path": "dist/croner.d.ts",
+          "bytes": 32026,
+          "sha256": "15ebff7c2bdded61004857e38e4bf557228a6d88f5f187d760712ef9156223a0",
+          "mode": "0o644"
+        }
+      ],
+      "installationBoundary": "zero runtime dependencies; no install/preinstall/postinstall/prepare scripts; commands specify local tgz and --offline --ignore-scripts"
+    },
+    "candidate": {
+      "sourceCommit": "511b29052629df0d3c95c53311bd71a7dbc7eb71",
+      "archiveSHA256": "5224222baca309f206c4ffac047a838e1b5cbecc1f2030308aa6c1a3c2885b56",
+      "bytes": 46302,
+      "members": [
+        {
+          "path": "LICENSE",
+          "bytes": 1123,
+          "sha256": "d1c89d2de9ab5785f68c69473d5e10f1ff0e5dbacef88e2aecbd6eaf89b63003",
+          "mode": "0o644",
+          "matchesGitSourceIgnoringNewlines": true
+        },
+        {
+          "path": "dist/croner.cjs",
+          "bytes": 31668,
+          "sha256": "4b404d9d9ce556d2b7a9f3d24718b274fd98c81c9bba0ca1c2b6e92a1940efff",
+          "mode": "0o644"
+        },
+        {
+          "path": "dist/croner.d.cts",
+          "bytes": 32026,
+          "sha256": "15ebff7c2bdded61004857e38e4bf557228a6d88f5f187d760712ef9156223a0",
+          "mode": "0o644"
+        },
+        {
+          "path": "dist/croner.js",
+          "bytes": 31148,
+          "sha256": "0c50ad98d0ae34ab5d4ab2fca2e65676e1a49418377b9da8bfe0763d1a9ad748",
+          "mode": "0o644"
+        },
+        {
+          "path": "dist/croner.umd.js",
+          "bytes": 31438,
+          "sha256": "9af6a20d0027cf0324bd17a0fe1655f9f8d63d753702e1c0a9748d1b1fa90a2e",
+          "mode": "0o644"
+        },
+        {
+          "path": "package.json",
+          "bytes": 2437,
+          "sha256": "c9e08571a11852f25b1436d5a963132f9cd75b2ce8c3b3d70098e48c71bf8111",
+          "mode": "0o644",
+          "matchesGitSourceIgnoringNewlines": true
+        },
+        {
+          "path": "README.md",
+          "bytes": 25442,
+          "sha256": "bcc4a20ecfcfcbaba229291c7f7c883ddaf039246d9d9e7691676850732ce4fb",
+          "mode": "0o644",
+          "matchesGitSourceIgnoringNewlines": true
+        },
+        {
+          "path": "dist/croner.d.ts",
+          "bytes": 32026,
+          "sha256": "15ebff7c2bdded61004857e38e4bf557228a6d88f5f187d760712ef9156223a0",
+          "mode": "0o644"
+        }
+      ],
+      "installationBoundary": "zero runtime dependencies; no install/preinstall/postinstall/prepare scripts; commands specify local tgz and --offline --ignore-scripts"
+    }
+  },
+  "license": "MIT; upstream LICENSE included in both tgz files and this evidence directory",
+  "memberReview": "All8 members inventoried per package; LICENSE/README/package identity match the corresponding Git source ignoring Windows line endings; duplicate declarations unchanged; all3 bundles differ solely in the reviewed handler-rejection boundary. No source maps, host paths, environment dumps, credentials, dependency payloads or install lifecycle scripts included.",
+  "externalActions": "Local zero-dependency package installation and native scheduling only; no model or paid service calls."
+}

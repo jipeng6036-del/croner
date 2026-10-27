@@ -1,0 +1,1748 @@
+{
+  "kind": "DERIVED_REQUIRED_COMMAND_SUMMARY_NOT_RAW_LOG",
+  "sourceCommits": {
+    "base": "ecf62fdc4f9584869140aad7536e2b320e9a923b",
+    "candidate": "511b29052629df0d3c95c53311bd71a7dbc7eb71"
+  },
+  "candidateTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3",
+  "status": "ALL_LISTED_PROJECT_COMMANDS_PASS_LOCALLY",
+  "finalProducerReceiptSHA256": "3da959899014209a6717285a36a81908f6a5ad45004781577e9b5e4aeaba692c",
+  "finalProducerReceiptBytes": 15522,
+  "selectedCommandIndexSHA256": "3f6312e74f0fa728faaa8b85bd8b1e4bac3f48ac53dd95dce78b98cdae495b44",
+  "commitBindingSHA256": "ab5fc38b274cdb5f180adcf76425e93fa5c2b1b58b09c5fdd0775c36223a2136",
+  "versions": {
+    "node18": {
+      "node": "v18.20.8",
+      "npm": "10.9.9"
+    },
+    "node20": {
+      "node": "v20.20.2",
+      "npm": "10.8.2"
+    },
+    "node22": {
+      "node": "v22.23.4",
+      "npm": "10.9.9"
+    },
+    "node24": {
+      "node": "v24.22.1",
+      "npm": "11.19.1"
+    },
+    "node26": {
+      "node": "v26.12.1",
+      "npm": "11.20.0"
+    },
+    "deno2": "deno 2.9.8 (stable, release, x86_64-unknown-linux-gnu)\nv8 15.0.245.2-rusty\ntypescript 6.0.3",
+    "bun": "1.4.4"
+  },
+  "versionProvenance": [
+    {
+      "sourceId": "node18-node-version-stdout",
+      "sourceSHA256": "b7f38aa15f46a5f3d8c42fbce8ff5444b0c2011c063a192a1cbfce57e56dcb95",
+      "sourceBytes": 9,
+      "receiptSHA256": "557dcbdf4633b9c685a1f64e5a232f8a79a89cc8897ed60bb263d21163fea86b"
+    },
+    {
+      "sourceId": "node18-installer-recovery-selected-npm-version-stdout",
+      "sourceSHA256": "d49bd31f65cb736f4045946e1c8365657cfed300dc0e4f173af5e93ab4500e1a",
+      "sourceBytes": 7,
+      "receiptSHA256": "7eef39c8f35f18f1670f1a0cae980e7a1daeb8da487831592e6e37ee98f08586"
+    },
+    {
+      "sourceId": "node20-node-version-stdout",
+      "sourceSHA256": "fa2f297fd185bb1c8acba036117f05240eaa1f42eeb8902e870982523ae06edf",
+      "sourceBytes": 9,
+      "receiptSHA256": "546a79bb0feef06699fa270132232730d7f00ccdb44bdc80c0a1ca4a6eea6c37"
+    },
+    {
+      "sourceId": "node20-npm-version-stdout",
+      "sourceSHA256": "457af6bcb860725c02c36308c43603dd9dd50fdae02abe4d09b1f85541b6431f",
+      "sourceBytes": 7,
+      "receiptSHA256": "4a5f92b3c3b55dfc407bc8bf573996631fa3be2edc24c44a3a46417c3ea996ce"
+    },
+    {
+      "sourceId": "node22-node-version-stdout",
+      "sourceSHA256": "2266957ed9a639bd7264d714bfa798a961510bf2e50695c668ab8fc0c3f4e906",
+      "sourceBytes": 9,
+      "receiptSHA256": "104d0ffa66d73fd0e6879ad0e5995080989d7a08e0bfc0cfc291563eddd8257b"
+    },
+    {
+      "sourceId": "node22-npm-version-stdout",
+      "sourceSHA256": "d49bd31f65cb736f4045946e1c8365657cfed300dc0e4f173af5e93ab4500e1a",
+      "sourceBytes": 7,
+      "receiptSHA256": "8d85b6abe09c2d69d2922659d92deca221770215ff515658e7488471d37f76f1"
+    },
+    {
+      "sourceId": "node24-node-version-stdout",
+      "sourceSHA256": "249baf635bb43877fcb9422efa1a4904b702d0ddf14d3949b7cd0950d5229c81",
+      "sourceBytes": 9,
+      "receiptSHA256": "baca35383318e6738cb377ce75a4d483ab54fbb4629034b0d6a8bf787cc519d8"
+    },
+    {
+      "sourceId": "node24-npm-version-stdout",
+      "sourceSHA256": "acb90e420303a6e949fec90f74faf64cc372894b3964e310a261689b898f41b0",
+      "sourceBytes": 8,
+      "receiptSHA256": "ac728589310a18723104034859b0163c12fc308a684157de69ab0b5b1540dae7"
+    },
+    {
+      "sourceId": "node26-node-version-stdout",
+      "sourceSHA256": "b26441604894a1a4e4cac96bfb464737575d9b6a2e8b9d3e996283005bd67b37",
+      "sourceBytes": 9,
+      "receiptSHA256": "683d1b350acc6cd56350a787a8eb2b7319150ce87f2a4e7d3f23be01615b5daf"
+    },
+    {
+      "sourceId": "node26-npm-version-stdout",
+      "sourceSHA256": "6784d6c924df1c8341f9f841f5b5b20c37255de3d34f923baebc0a557d5d5201",
+      "sourceBytes": 8,
+      "receiptSHA256": "c5a5ecdb7882adc6a02e8282f45e9e125e10d7ee95bdf3a69f9c6b15721ca933"
+    },
+    {
+      "sourceId": "deno2-version-stdout",
+      "sourceSHA256": "0ce1b441b2976e681987a3f81ea80a76c125a8ab399ee68ac6fd467333dcd0bd",
+      "sourceBytes": 92,
+      "receiptSHA256": "71eb67e3279954d4dd4112717a5ad0475ce8de3e2a1872cd7dad1d579b631720"
+    },
+    {
+      "sourceId": "bun-bun-version-stdout",
+      "sourceSHA256": "d03d8b268b4171328ac2458ce8ca82d69a1fde38469d4e4faae4f8fa8d8a5e35",
+      "sourceBytes": 6,
+      "receiptSHA256": "cb42dd5fdd6855b38491cd98489c81f2f3f4f380092a128c36329b59bb077eba"
+    }
+  ],
+  "commands": [
+    {
+      "role": "base",
+      "runtime": "v18.20.8",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 678,
+      "elapsedSeconds": 43.51317548751831,
+      "receiptSHA256": "85194e0837734cddd3beae3e0ac23fd1554638b418dbe7b7a12ff8a4e7bd04b9",
+      "stdoutSHA256": "ecec4f87ba5480111765306360b27a0adc223610b127a6b2a25c1f837ccdaa96",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node18-clean-base-test.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "candidate",
+      "runtime": "v18.20.8",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 682,
+      "elapsedSeconds": 41.86543345451355,
+      "receiptSHA256": "80f33a4e93190fd77d4724d04cf6036322ebd7368f5b3428aa43e172081488b2",
+      "stdoutSHA256": "ecdd7773ea4e8c8c689a988c9dced2cd9a3d58f27575226d73ce3313fa8fc1c0",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node18-candidate-installer-recovery-test.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "base",
+      "runtime": "v20.20.2",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 678,
+      "elapsedSeconds": 43.73335528373718,
+      "receiptSHA256": "98a7bd85b83df4431dde07570b259a21d62912cc3d924cb2159995231bdf5cde",
+      "stdoutSHA256": "044cd1eccbdc787dbe0bd9c07d86e215824240674ef322d29b0c342c0242e05d",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node20-base-recovery-test.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "candidate",
+      "runtime": "v20.20.2",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 682,
+      "elapsedSeconds": 44.57207202911377,
+      "receiptSHA256": "48b56863a43d504c8b2cfe4598a26e7878b2bceb89aeeb500946d82b56552729",
+      "stdoutSHA256": "32d2d94de86b99e169098616fbf81b8fa6930a0382c44cfe67bc5604e1dde9df",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node20-candidate-recovery-test.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "base",
+      "runtime": "v22.23.4",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 678,
+      "elapsedSeconds": 46.90435004234314,
+      "receiptSHA256": "a33353634506f82242459cba983f93466dd66b22da455c59b54b75e3a3b27444",
+      "stdoutSHA256": "8769f0038ffbbba8399303b479877440996e59acd57914316d3c451281c2cc80",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node22-base-test.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "candidate",
+      "runtime": "v22.23.4",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 682,
+      "elapsedSeconds": 47.55973219871521,
+      "receiptSHA256": "9cfd1ca59376b90f95e4713c80aa40cf43dfe8fe7b125ba5440596fe7b36250a",
+      "stdoutSHA256": "5f03842949f218a7a2d9c3ec4f1c6e13774310fb8e0bf4cbc00568d43987f45c",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node22-candidate-test.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "base",
+      "runtime": "v24.22.1",
+      "projectCommand": [
+        "npm",
+        "run",
+        "pre-commit"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 678,
+      "elapsedSeconds": 46.40466117858887,
+      "receiptSHA256": "e50f439816e17c9002c219a8610eaa93220cdda301bfa3c867d06b6d66c98dec",
+      "stdoutSHA256": "835f82fb863f87611f1d7f2eb2e5f2ff1c284ee8615a58c99158f5bf7e8b21d7",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node24-base-precommit.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "base",
+      "runtime": "v24.22.1",
+      "projectCommand": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 678,
+      "elapsedSeconds": 47.22127056121826,
+      "receiptSHA256": "aea23cccf8561a27c81f9790feed15f55bcfd62539b77dcfcc38e5096f16fad3",
+      "stdoutSHA256": "1dec1da92fa135c0ecbc3fe5a1b316d6063d208a919ac793beee844a3c4022db",
+      "stderrSHA256": "978a7a342e56cafef3ade1f022e67bacb9b219d8b935ea67b92649278e3028d5",
+      "excerpt": "evidence/linux-node24-base-build.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "base",
+      "runtime": "v24.22.1",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "timezone": "America/New_York",
+      "exitCode": 0,
+      "testsPassed": 678,
+      "elapsedSeconds": 44.885369300842285,
+      "receiptSHA256": "b8f2cae08c3e30eaadd713fa9fa5582346369a20e0ce5fbedb07cf9ea309ec83",
+      "stdoutSHA256": "0f4b3240fab207ec191dde57529d649f7190d50daf4813b919515c571b1816d7",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node24-base-newyork-test.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "candidate",
+      "runtime": "v24.22.1",
+      "projectCommand": [
+        "npm",
+        "run",
+        "pre-commit"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 682,
+      "elapsedSeconds": 49.08922362327576,
+      "receiptSHA256": "d58aa45bbbe97279bdbe01797eb6ca744d6476e93c79804e66b8b82bde6fff08",
+      "stdoutSHA256": "62a3c4eb478897753671a4d8b2ab85e27458e3947b854708ae5f8359f900f44b",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node24-candidate-precommit.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "candidate",
+      "runtime": "v24.22.1",
+      "projectCommand": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 682,
+      "elapsedSeconds": 49.61244869232178,
+      "receiptSHA256": "c3a305021fb1254da8bf3ded752dd2fa00c8878093b8016d6203e9a29a3becda",
+      "stdoutSHA256": "49ee0c91ae78b81ca1c56cb9057329df63b8591a23c0afab1dc215f0382a7cd3",
+      "stderrSHA256": "978a7a342e56cafef3ade1f022e67bacb9b219d8b935ea67b92649278e3028d5",
+      "excerpt": "evidence/linux-node24-candidate-build.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "candidate",
+      "runtime": "v24.22.1",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "timezone": "America/New_York",
+      "exitCode": 0,
+      "testsPassed": 682,
+      "elapsedSeconds": 46.569122076034546,
+      "receiptSHA256": "d1e403e0dc172893c119a4e597ff6a64602ffe44086a788d8becb3a426864dd3",
+      "stdoutSHA256": "ad9fd800277db3c2441b5b291f498ea69a1e624a497f85cc0331d0897499b6ea",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node24-candidate-newyork-test.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "base",
+      "runtime": "v26.12.1",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 678,
+      "elapsedSeconds": 44.55945062637329,
+      "receiptSHA256": "0f54718f0fe70b764b87b60c4b469e56dcf426925049b80bc3ee1f0f6c330e62",
+      "stdoutSHA256": "3b9e2459e1a174bae2e10cb86c6f4ce7be53ec7049695c94d08c7f6d96881731",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node26-base-test.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "candidate",
+      "runtime": "v26.12.1",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 682,
+      "elapsedSeconds": 46.82391810417175,
+      "receiptSHA256": "abe06ea3aa1b3b72577e6f9983669541f363ad6ba861555c293edb6ec428643d",
+      "stdoutSHA256": "694856cd314572ecfa8fab13a6cba37e539579d76a78956cf029ddd20501530c",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "evidence/linux-node26-candidate-test.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "base",
+      "runtime": "deno 2.9.8 (stable, release, x86_64-unknown-linux-gnu)\nv8 15.0.245.2-rusty\ntypescript 6.0.3",
+      "projectCommand": [
+        "deno",
+        "task",
+        "pre-commit"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": null,
+      "elapsedSeconds": 1.406285047531128,
+      "receiptSHA256": "5fb503f0de07064f436fdf186e00c1adf3bd97cfd6ac68ab6efba335212ece0c",
+      "stdoutSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrSHA256": "f76a4dabe203b309f5a02cb8452779499247392dc6d19426c8a7d405acfd8585",
+      "excerpt": "evidence/linux-deno2-base-precommit.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "base",
+      "runtime": "deno 2.9.8 (stable, release, x86_64-unknown-linux-gnu)\nv8 15.0.245.2-rusty\ntypescript 6.0.3",
+      "projectCommand": [
+        "deno",
+        "task",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 678,
+      "elapsedSeconds": 46.35473370552063,
+      "receiptSHA256": "1fda92748f50bc70bc2be845df741a4f2ef815417d23e43dbccf750c95760334",
+      "stdoutSHA256": "688ea8f382545e26e4734e690c4dbd19e97fc3d754964a60ddb83799a9778ea3",
+      "stderrSHA256": "63a201fe0e3ed3c5f10a5cc03acac37fcb0025072ecc508a648874a9e92d1573",
+      "excerpt": "evidence/linux-deno2-base-test.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "base",
+      "runtime": "deno 2.9.8 (stable, release, x86_64-unknown-linux-gnu)\nv8 15.0.245.2-rusty\ntypescript 6.0.3",
+      "projectCommand": [
+        "deno",
+        "task",
+        "test"
+      ],
+      "timezone": "America/New_York",
+      "exitCode": 0,
+      "testsPassed": 678,
+      "elapsedSeconds": 42.856887340545654,
+      "receiptSHA256": "2282871427021c6265c17d8b50a86cefc96009df38dbf2eaf7f5ef1ea21bdc51",
+      "stdoutSHA256": "4a7225ea127fa68bbd198ae84dc4c8a8768bd828f82632828d0dae742e8ffd76",
+      "stderrSHA256": "94eccf7347e3ccd8794ba3cd1cb6492c3c325315b6279e5321d82040e1b5f266",
+      "excerpt": "evidence/linux-deno2-base-newyork-test.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "base",
+      "runtime": "deno 2.9.8 (stable, release, x86_64-unknown-linux-gnu)\nv8 15.0.245.2-rusty\ntypescript 6.0.3",
+      "projectCommand": [
+        "deno",
+        "publish",
+        "--dry-run"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": null,
+      "elapsedSeconds": 1.2291650772094727,
+      "receiptSHA256": "1577aa41921af9d1f6e5852c6fdd530107fda5b920e659d16e13ac6d2df5544e",
+      "stdoutSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrSHA256": "aa991aabd95ec614163b198659ac26ed7d8d68cae5d110f35186d5abb787e33f",
+      "excerpt": "evidence/linux-deno2-base-publish-dryrun.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "candidate",
+      "runtime": "deno 2.9.8 (stable, release, x86_64-unknown-linux-gnu)\nv8 15.0.245.2-rusty\ntypescript 6.0.3",
+      "projectCommand": [
+        "deno",
+        "task",
+        "pre-commit"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": null,
+      "elapsedSeconds": 1.2229652404785156,
+      "receiptSHA256": "1959d8c0cf98903233208d71d1bc2d1dd4b99099111e6d3e741a2d171b07133e",
+      "stdoutSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrSHA256": "00185c282cab501b8f30d3024b3f3b3c03a0680c5c117a8c4441a374180fc8c4",
+      "excerpt": "evidence/linux-deno2-candidate-precommit.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "candidate",
+      "runtime": "deno 2.9.8 (stable, release, x86_64-unknown-linux-gnu)\nv8 15.0.245.2-rusty\ntypescript 6.0.3",
+      "projectCommand": [
+        "deno",
+        "task",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 682,
+      "elapsedSeconds": 45.25358843803406,
+      "receiptSHA256": "9f310f470e72808029c2438d0a56f9c148b1f4c54ebc853ec231401a471e4360",
+      "stdoutSHA256": "45be1cae42ab48bfa3d45a66bf0c24f91b22fbdf5ae0006d9e3322f0197dc806",
+      "stderrSHA256": "86a550e2590e1899b88fca70d52166ff470a14a8408464a3d314b1fbb8bd33e7",
+      "excerpt": "evidence/linux-deno2-candidate-test.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "candidate",
+      "runtime": "deno 2.9.8 (stable, release, x86_64-unknown-linux-gnu)\nv8 15.0.245.2-rusty\ntypescript 6.0.3",
+      "projectCommand": [
+        "deno",
+        "task",
+        "test"
+      ],
+      "timezone": "America/New_York",
+      "exitCode": 0,
+      "testsPassed": 682,
+      "elapsedSeconds": 44.6688392162323,
+      "receiptSHA256": "4f2283a57ea16f5dc7a9da0b0c1a8062edf35ff2e7038f5dfcba2aa35378d674",
+      "stdoutSHA256": "6cd0c578c1b4cb9bd22abdfffa74910ba6cd9926ed61706b5030455f5f922480",
+      "stderrSHA256": "86a550e2590e1899b88fca70d52166ff470a14a8408464a3d314b1fbb8bd33e7",
+      "excerpt": "evidence/linux-deno2-candidate-newyork-test.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "candidate",
+      "runtime": "deno 2.9.8 (stable, release, x86_64-unknown-linux-gnu)\nv8 15.0.245.2-rusty\ntypescript 6.0.3",
+      "projectCommand": [
+        "deno",
+        "publish",
+        "--dry-run"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": null,
+      "elapsedSeconds": 3.489076852798462,
+      "receiptSHA256": "01ded337bf118c0c7c4d94bf960651f922a740807d205919eaa690c0786766bb",
+      "stdoutSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrSHA256": "5e187f53911a58c8969e4ce73c9cb3fa3594b39a63bb46a7b0e90e387d504efa",
+      "excerpt": "evidence/linux-deno2-candidate-publish-dryrun.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    },
+    {
+      "role": "base",
+      "runtime": "1.4.4",
+      "projectCommand": [
+        "bun",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 678,
+      "elapsedSeconds": 38.7082085609436,
+      "receiptSHA256": "c9d18f6cfb0871dcbaaa49448420d6bf93176f2e04bc98e2df0ab7e67b6ce100",
+      "stdoutSHA256": "bbe6a94c29cc8d3ff5a1792a5abae1f1122aed0642111b52036ab7e0b2b2ca47",
+      "stderrSHA256": "7daae905b0ad2322a5eda257c82e0c8ea064109623063b116e1462fe3ac961f7",
+      "excerpt": "evidence/linux-bun-base-test.txt",
+      "sourceCommit": "ecf62fdc4f9584869140aad7536e2b320e9a923b"
+    },
+    {
+      "role": "candidate",
+      "runtime": "1.4.4",
+      "projectCommand": [
+        "bun",
+        "test"
+      ],
+      "timezone": "UTC",
+      "exitCode": 0,
+      "testsPassed": 682,
+      "elapsedSeconds": 40.68972182273865,
+      "receiptSHA256": "c0a3b8a4e940129af4a758d8bb1d93a6c03d94f8d2f65a810d1d7e4532eb0fd4",
+      "stdoutSHA256": "bbe6a94c29cc8d3ff5a1792a5abae1f1122aed0642111b52036ab7e0b2b2ca47",
+      "stderrSHA256": "5a17b9cb2a15f7d2c6388a8bcfa56ff35f233c08825dcff3ca624b811bfb34d3",
+      "excerpt": "evidence/linux-bun-candidate-test.txt",
+      "sourceTree": "4eaca1665093f31f2585cf5a7a9ac799ad91c1f3"
+    }
+  ],
+  "all40SelectedCommands": [
+    {
+      "runtime": "node18",
+      "role": "base",
+      "sourceId": "node18-clean-base-install",
+      "projectCommand": [
+        "npm",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node18-clean-base-install.stdout.log",
+          "bytes": 138,
+          "sha256": "5efd47a1cf83640de51a0e53850d4968943412baff9606f075cd2834e4f28a79"
+        },
+        {
+          "sourceId": "node18-clean-base-install.stderr.log",
+          "bytes": 238,
+          "sha256": "07d11763259ae228f9a49a03b313cf9967b722d26b01300d1de3236f5d3c11f2"
+        },
+        {
+          "sourceId": "node18-clean-base-install.receipt.json",
+          "bytes": 728,
+          "sha256": "db639bd63709619b9419458adab084fd4122bcb5c136c93243d6804da5727acf"
+        }
+      ]
+    },
+    {
+      "runtime": "node18",
+      "role": "base",
+      "sourceId": "node18-clean-base-dependency-tree",
+      "projectCommand": [
+        "npm",
+        "ls",
+        "--all",
+        "--json"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node18-clean-base-dependency-tree.stdout.log",
+          "bytes": 8481,
+          "sha256": "e7f45ca2d2a315913d78369e218daf9604a105f6dfed16fda1cef95213411cdf"
+        },
+        {
+          "sourceId": "node18-clean-base-dependency-tree.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node18-clean-base-dependency-tree.receipt.json",
+          "bytes": 753,
+          "sha256": "db2aef597b9c715131758d7ae784cc7874b406d2e04e5660ee71dfb9c0fce0a0"
+        }
+      ]
+    },
+    {
+      "runtime": "node18",
+      "role": "base",
+      "sourceId": "node18-clean-base-test",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node18-clean-base-test.stdout.log",
+          "bytes": 115422,
+          "sha256": "ecec4f87ba5480111765306360b27a0adc223610b127a6b2a25c1f837ccdaa96"
+        },
+        {
+          "sourceId": "node18-clean-base-test.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node18-clean-base-test.receipt.json",
+          "bytes": 725,
+          "sha256": "85194e0837734cddd3beae3e0ac23fd1554638b418dbe7b7a12ff8a4e7bd04b9"
+        }
+      ]
+    },
+    {
+      "runtime": "node18",
+      "role": "candidate",
+      "sourceId": "node18-candidate-installer-recovery-install",
+      "projectCommand": [
+        "npm",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node18-candidate-installer-recovery-install.stdout.log",
+          "bytes": 138,
+          "sha256": "1c8d83c4127abe53c7e61c166c8437aae17ad5cc8994f04194ca80c362946e8a"
+        },
+        {
+          "sourceId": "node18-candidate-installer-recovery-install.stderr.log",
+          "bytes": 238,
+          "sha256": "07d11763259ae228f9a49a03b313cf9967b722d26b01300d1de3236f5d3c11f2"
+        },
+        {
+          "sourceId": "node18-candidate-installer-recovery-install.receipt.json",
+          "bytes": 794,
+          "sha256": "1cbad30df6fe651830793dfb99cd0b03b31685cbe1cdd30e8103c7c17b361fed"
+        }
+      ]
+    },
+    {
+      "runtime": "node18",
+      "role": "candidate",
+      "sourceId": "node18-candidate-installer-dependency-tree",
+      "projectCommand": [
+        "npm",
+        "ls",
+        "--all",
+        "--json"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node18-candidate-installer-dependency-tree.json",
+          "bytes": 8481,
+          "sha256": "e7f45ca2d2a315913d78369e218daf9604a105f6dfed16fda1cef95213411cdf"
+        },
+        {
+          "sourceId": "node18-candidate-installer-dependency-tree.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node18-candidate-installer-dependency-tree.receipt.json",
+          "bytes": 381,
+          "sha256": "b5a4033318d5e6da514670cd3c51a35abfb9055f1d544d56a9ab73b4afca86c2"
+        }
+      ]
+    },
+    {
+      "runtime": "node18",
+      "role": "candidate",
+      "sourceId": "node18-candidate-installer-recovery-test",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node18-candidate-installer-recovery-test.stdout.log",
+          "bytes": 116096,
+          "sha256": "ecdd7773ea4e8c8c689a988c9dced2cd9a3d58f27575226d73ce3313fa8fc1c0"
+        },
+        {
+          "sourceId": "node18-candidate-installer-recovery-test.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node18-candidate-installer-recovery-test.receipt.json",
+          "bytes": 791,
+          "sha256": "80f33a4e93190fd77d4724d04cf6036322ebd7368f5b3428aa43e172081488b2"
+        }
+      ]
+    },
+    {
+      "runtime": "node20",
+      "role": "base",
+      "sourceId": "node20-base-recovery-install",
+      "projectCommand": [
+        "npm",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node20-base-recovery-install.stdout.log",
+          "bytes": 179,
+          "sha256": "aee59c27844d137be7a229ffce9904d17a4afd6a38ddcee93fb81ed99868d797"
+        },
+        {
+          "sourceId": "node20-base-recovery-install.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node20-base-recovery-install.receipt.json",
+          "bytes": 685,
+          "sha256": "48cf53697bda63fa89b68532f375486ce0290dd91446c1b5967b65781ba93e07"
+        }
+      ]
+    },
+    {
+      "runtime": "node20",
+      "role": "base",
+      "sourceId": "node20-base-recovery-dependency-tree",
+      "projectCommand": [
+        "npm",
+        "ls",
+        "--all",
+        "--json"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node20-base-recovery-dependency-tree.json",
+          "bytes": 8481,
+          "sha256": "e7f45ca2d2a315913d78369e218daf9604a105f6dfed16fda1cef95213411cdf"
+        },
+        {
+          "sourceId": "node20-base-recovery-dependency-tree.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node20-base-recovery-dependency-tree.receipt.json",
+          "bytes": 272,
+          "sha256": "4e8f57317bac8496be03c7cb81a1442b950dd12b427e71f3d958e0c8dde47d99"
+        }
+      ]
+    },
+    {
+      "runtime": "node20",
+      "role": "base",
+      "sourceId": "node20-base-recovery-test",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node20-base-recovery-test.stdout.log",
+          "bytes": 115425,
+          "sha256": "044cd1eccbdc787dbe0bd9c07d86e215824240674ef322d29b0c342c0242e05d"
+        },
+        {
+          "sourceId": "node20-base-recovery-test.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node20-base-recovery-test.receipt.json",
+          "bytes": 682,
+          "sha256": "98a7bd85b83df4431dde07570b259a21d62912cc3d924cb2159995231bdf5cde"
+        }
+      ]
+    },
+    {
+      "runtime": "node20",
+      "role": "candidate",
+      "sourceId": "node20-candidate-recovery-install",
+      "projectCommand": [
+        "npm",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node20-candidate-recovery-install.stdout.log",
+          "bytes": 138,
+          "sha256": "1e117afa3949e168edd06796bc0ec3b36b1a29ab50f5be54327b2e947c184555"
+        },
+        {
+          "sourceId": "node20-candidate-recovery-install.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node20-candidate-recovery-install.receipt.json",
+          "bytes": 690,
+          "sha256": "9c6e3ff5409ef3e1d51363603303e9273f305819f4f3786bd38eb8357d80769c"
+        }
+      ]
+    },
+    {
+      "runtime": "node20",
+      "role": "candidate",
+      "sourceId": "node20-candidate-recovery-dependency-tree",
+      "projectCommand": [
+        "npm",
+        "ls",
+        "--all",
+        "--json"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node20-candidate-recovery-dependency-tree.json",
+          "bytes": 8481,
+          "sha256": "e7f45ca2d2a315913d78369e218daf9604a105f6dfed16fda1cef95213411cdf"
+        },
+        {
+          "sourceId": "node20-candidate-recovery-dependency-tree.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node20-candidate-recovery-dependency-tree.receipt.json",
+          "bytes": 277,
+          "sha256": "574c53c4898f1d00095ac84d9b769f56da3422925fdaae52342e5304321d8e72"
+        }
+      ]
+    },
+    {
+      "runtime": "node20",
+      "role": "candidate",
+      "sourceId": "node20-candidate-recovery-test",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node20-candidate-recovery-test.stdout.log",
+          "bytes": 116132,
+          "sha256": "32d2d94de86b99e169098616fbf81b8fa6930a0382c44cfe67bc5604e1dde9df"
+        },
+        {
+          "sourceId": "node20-candidate-recovery-test.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node20-candidate-recovery-test.receipt.json",
+          "bytes": 687,
+          "sha256": "48b56863a43d504c8b2cfe4598a26e7878b2bceb89aeeb500946d82b56552729"
+        }
+      ]
+    },
+    {
+      "runtime": "node22",
+      "role": "base",
+      "sourceId": "node22-base-install",
+      "projectCommand": [
+        "npm",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node22-base-install.stdout.log",
+          "bytes": 139,
+          "sha256": "570cadf1fa66beba74b50789347fd56605e607d9c9697ecb415c242839210be5"
+        },
+        {
+          "sourceId": "node22-base-install.stderr.log",
+          "bytes": 208,
+          "sha256": "377de7d896506376a8a039487f5f1a2d071010819947c8dbbc2a1f825e574c6d"
+        },
+        {
+          "sourceId": "node22-base-install.receipt.json",
+          "bytes": 376,
+          "sha256": "74c76f3cfc99c57d851b229b11fd6349cfa6a6d6ca975cb100fe36cc1e66064f"
+        }
+      ]
+    },
+    {
+      "runtime": "node22",
+      "role": "base",
+      "sourceId": "node22-base-test",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node22-base-test.stdout.log",
+          "bytes": 125398,
+          "sha256": "8769f0038ffbbba8399303b479877440996e59acd57914316d3c451281c2cc80"
+        },
+        {
+          "sourceId": "node22-base-test.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node22-base-test.receipt.json",
+          "bytes": 372,
+          "sha256": "a33353634506f82242459cba983f93466dd66b22da455c59b54b75e3a3b27444"
+        }
+      ]
+    },
+    {
+      "runtime": "node22",
+      "role": "candidate",
+      "sourceId": "node22-candidate-install",
+      "projectCommand": [
+        "npm",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node22-candidate-install.stdout.log",
+          "bytes": 138,
+          "sha256": "42cd9672e8d74493b8ca2b81deaef5e8800dbcbc17079fcf5298d4bde5b004a4"
+        },
+        {
+          "sourceId": "node22-candidate-install.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node22-candidate-install.receipt.json",
+          "bytes": 556,
+          "sha256": "25521cca3ab2afdd69bb4ad503e2bb966e35bdc84e0de4d960f25d3c9ba837a2"
+        }
+      ]
+    },
+    {
+      "runtime": "node22",
+      "role": "candidate",
+      "sourceId": "node22-candidate-test",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node22-candidate-test.stdout.log",
+          "bytes": 126144,
+          "sha256": "5f03842949f218a7a2d9c3ec4f1c6e13774310fb8e0bf4cbc00568d43987f45c"
+        },
+        {
+          "sourceId": "node22-candidate-test.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node22-candidate-test.receipt.json",
+          "bytes": 553,
+          "sha256": "9cfd1ca59376b90f95e4713c80aa40cf43dfe8fe7b125ba5440596fe7b36250a"
+        }
+      ]
+    },
+    {
+      "runtime": "node24",
+      "role": "base",
+      "sourceId": "node24-base-install",
+      "projectCommand": [
+        "npm",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node24-base-install.stdout.log",
+          "bytes": 139,
+          "sha256": "ef10f47560298a6f1c654a3ae7f76f716a3d63df4cccee5cf4387469c6f6ce3a"
+        },
+        {
+          "sourceId": "node24-base-install.stderr.log",
+          "bytes": 509,
+          "sha256": "c267c0154f7e2ddf6e2a1ed2ae8b57eb78807b9c04f90c31ba6c81a729507c00"
+        },
+        {
+          "sourceId": "node24-base-install.receipt.json",
+          "bytes": 376,
+          "sha256": "90e76c73a85d45d3161da0ecd9f9b0ccd1fb50ca96391a6226f21bbaa5b491bc"
+        }
+      ]
+    },
+    {
+      "runtime": "node24",
+      "role": "base",
+      "sourceId": "node24-base-precommit",
+      "projectCommand": [
+        "npm",
+        "run",
+        "pre-commit"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node24-base-precommit.stdout.log",
+          "bytes": 50392,
+          "sha256": "835f82fb863f87611f1d7f2eb2e5f2ff1c284ee8615a58c99158f5bf7e8b21d7"
+        },
+        {
+          "sourceId": "node24-base-precommit.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node24-base-precommit.receipt.json",
+          "bytes": 390,
+          "sha256": "e50f439816e17c9002c219a8610eaa93220cdda301bfa3c867d06b6d66c98dec"
+        }
+      ]
+    },
+    {
+      "runtime": "node24",
+      "role": "base",
+      "sourceId": "node24-base-build",
+      "projectCommand": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node24-base-build.stdout.log",
+          "bytes": 50687,
+          "sha256": "1dec1da92fa135c0ecbc3fe5a1b316d6063d208a919ac793beee844a3c4022db"
+        },
+        {
+          "sourceId": "node24-base-build.stderr.log",
+          "bytes": 1701,
+          "sha256": "978a7a342e56cafef3ade1f022e67bacb9b219d8b935ea67b92649278e3028d5"
+        },
+        {
+          "sourceId": "node24-base-build.receipt.json",
+          "bytes": 385,
+          "sha256": "aea23cccf8561a27c81f9790feed15f55bcfd62539b77dcfcc38e5096f16fad3"
+        }
+      ]
+    },
+    {
+      "runtime": "node24",
+      "role": "base",
+      "sourceId": "node24-base-newyork-test",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node24-base-newyork-test.stdout.log",
+          "bytes": 50263,
+          "sha256": "0f4b3240fab207ec191dde57529d649f7190d50daf4813b919515c571b1816d7"
+        },
+        {
+          "sourceId": "node24-base-newyork-test.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node24-base-newyork-test.receipt.json",
+          "bytes": 412,
+          "sha256": "b8f2cae08c3e30eaadd713fa9fa5582346369a20e0ce5fbedb07cf9ea309ec83"
+        }
+      ]
+    },
+    {
+      "runtime": "node24",
+      "role": "candidate",
+      "sourceId": "node24-candidate-install",
+      "projectCommand": [
+        "npm",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node24-candidate-install.stdout.log",
+          "bytes": 139,
+          "sha256": "570cadf1fa66beba74b50789347fd56605e607d9c9697ecb415c242839210be5"
+        },
+        {
+          "sourceId": "node24-candidate-install.stderr.log",
+          "bytes": 509,
+          "sha256": "c267c0154f7e2ddf6e2a1ed2ae8b57eb78807b9c04f90c31ba6c81a729507c00"
+        },
+        {
+          "sourceId": "node24-candidate-install.receipt.json",
+          "bytes": 557,
+          "sha256": "a9f9376cd82efdadf133bf2408a1d5a095990ba97aaf94dcba9db8c106788493"
+        }
+      ]
+    },
+    {
+      "runtime": "node24",
+      "role": "candidate",
+      "sourceId": "node24-candidate-precommit",
+      "projectCommand": [
+        "npm",
+        "run",
+        "pre-commit"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node24-candidate-precommit.stdout.log",
+          "bytes": 50704,
+          "sha256": "62a3c4eb478897753671a4d8b2ab85e27458e3947b854708ae5f8359f900f44b"
+        },
+        {
+          "sourceId": "node24-candidate-precommit.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node24-candidate-precommit.receipt.json",
+          "bytes": 571,
+          "sha256": "d58aa45bbbe97279bdbe01797eb6ca744d6476e93c79804e66b8b82bde6fff08"
+        }
+      ]
+    },
+    {
+      "runtime": "node24",
+      "role": "candidate",
+      "sourceId": "node24-candidate-build",
+      "projectCommand": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node24-candidate-build.stdout.log",
+          "bytes": 51019,
+          "sha256": "49ee0c91ae78b81ca1c56cb9057329df63b8591a23c0afab1dc215f0382a7cd3"
+        },
+        {
+          "sourceId": "node24-candidate-build.stderr.log",
+          "bytes": 1701,
+          "sha256": "978a7a342e56cafef3ade1f022e67bacb9b219d8b935ea67b92649278e3028d5"
+        },
+        {
+          "sourceId": "node24-candidate-build.receipt.json",
+          "bytes": 566,
+          "sha256": "c3a305021fb1254da8bf3ded752dd2fa00c8878093b8016d6203e9a29a3becda"
+        }
+      ]
+    },
+    {
+      "runtime": "node24",
+      "role": "candidate",
+      "sourceId": "node24-candidate-newyork-test",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node24-candidate-newyork-test.stdout.log",
+          "bytes": 50599,
+          "sha256": "ad9fd800277db3c2441b5b291f498ea69a1e624a497f85cc0331d0897499b6ea"
+        },
+        {
+          "sourceId": "node24-candidate-newyork-test.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node24-candidate-newyork-test.receipt.json",
+          "bytes": 593,
+          "sha256": "d1e403e0dc172893c119a4e597ff6a64602ffe44086a788d8becb3a426864dd3"
+        }
+      ]
+    },
+    {
+      "runtime": "node26",
+      "role": "base",
+      "sourceId": "node26-base-install",
+      "projectCommand": [
+        "npm",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node26-base-install.stdout.log",
+          "bytes": 139,
+          "sha256": "2936f3a4447d506d4ee940286f67291cfbdf60a832d0953623982e24cef20679"
+        },
+        {
+          "sourceId": "node26-base-install.stderr.log",
+          "bytes": 509,
+          "sha256": "a5464581e43e59778f80cf6759c8ee5075ce50a401aada985d82e12bd45db0ea"
+        },
+        {
+          "sourceId": "node26-base-install.receipt.json",
+          "bytes": 376,
+          "sha256": "30fa3d5fdf8331c565f6c77b9507e24d5f2e9821d0d5b5cb8e5373fa2ba97569"
+        }
+      ]
+    },
+    {
+      "runtime": "node26",
+      "role": "base",
+      "sourceId": "node26-base-test",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node26-base-test.stdout.log",
+          "bytes": 50281,
+          "sha256": "3b9e2459e1a174bae2e10cb86c6f4ce7be53ec7049695c94d08c7f6d96881731"
+        },
+        {
+          "sourceId": "node26-base-test.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node26-base-test.receipt.json",
+          "bytes": 435,
+          "sha256": "0f54718f0fe70b764b87b60c4b469e56dcf426925049b80bc3ee1f0f6c330e62"
+        }
+      ]
+    },
+    {
+      "runtime": "node26",
+      "role": "candidate",
+      "sourceId": "node26-candidate-install",
+      "projectCommand": [
+        "npm",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node26-candidate-install.stdout.log",
+          "bytes": 138,
+          "sha256": "42cd9672e8d74493b8ca2b81deaef5e8800dbcbc17079fcf5298d4bde5b004a4"
+        },
+        {
+          "sourceId": "node26-candidate-install.stderr.log",
+          "bytes": 300,
+          "sha256": "960379ab2b6e16c97f4063bcd816d9df4cc6c32cbcc2d926fac49aca2dc92829"
+        },
+        {
+          "sourceId": "node26-candidate-install.receipt.json",
+          "bytes": 556,
+          "sha256": "b22128a91f5fc8cd0d01660f819097a67832c751d6ff32c2c409c955264c3a14"
+        }
+      ]
+    },
+    {
+      "runtime": "node26",
+      "role": "candidate",
+      "sourceId": "node26-candidate-test",
+      "projectCommand": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "node26-candidate-test.stdout.log",
+          "bytes": 50608,
+          "sha256": "694856cd314572ecfa8fab13a6cba37e539579d76a78956cf029ddd20501530c"
+        },
+        {
+          "sourceId": "node26-candidate-test.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "node26-candidate-test.receipt.json",
+          "bytes": 553,
+          "sha256": "abe06ea3aa1b3b72577e6f9983669541f363ad6ba861555c293edb6ec428643d"
+        }
+      ]
+    },
+    {
+      "runtime": "deno2",
+      "role": "base",
+      "sourceId": "deno2-base-precommit",
+      "projectCommand": [
+        "deno",
+        "task",
+        "pre-commit"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "deno2-base-precommit.stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "deno2-base-precommit.stderr.log",
+          "bytes": 166,
+          "sha256": "f76a4dabe203b309f5a02cb8452779499247392dc6d19426c8a7d405acfd8585"
+        },
+        {
+          "sourceId": "deno2-base-precommit.receipt.json",
+          "bytes": 391,
+          "sha256": "5fb503f0de07064f436fdf186e00c1adf3bd97cfd6ac68ab6efba335212ece0c"
+        }
+      ]
+    },
+    {
+      "runtime": "deno2",
+      "role": "base",
+      "sourceId": "deno2-base-test",
+      "projectCommand": [
+        "deno",
+        "task",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "deno2-base-test.stdout.log",
+          "bytes": 72634,
+          "sha256": "688ea8f382545e26e4734e690c4dbd19e97fc3d754964a60ddb83799a9778ea3"
+        },
+        {
+          "sourceId": "deno2-base-test.stderr.log",
+          "bytes": 4464,
+          "sha256": "63a201fe0e3ed3c5f10a5cc03acac37fcb0025072ecc508a648874a9e92d1573"
+        },
+        {
+          "sourceId": "deno2-base-test.receipt.json",
+          "bytes": 385,
+          "sha256": "1fda92748f50bc70bc2be845df741a4f2ef815417d23e43dbccf750c95760334"
+        }
+      ]
+    },
+    {
+      "runtime": "deno2",
+      "role": "base",
+      "sourceId": "deno2-base-publish-dryrun",
+      "projectCommand": [
+        "deno",
+        "publish",
+        "--dry-run"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "deno2-base-publish-dryrun.stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "deno2-base-publish-dryrun.stderr.log",
+          "bytes": 760,
+          "sha256": "aa991aabd95ec614163b198659ac26ed7d8d68cae5d110f35186d5abb787e33f"
+        },
+        {
+          "sourceId": "deno2-base-publish-dryrun.receipt.json",
+          "bytes": 394,
+          "sha256": "1577aa41921af9d1f6e5852c6fdd530107fda5b920e659d16e13ac6d2df5544e"
+        }
+      ]
+    },
+    {
+      "runtime": "deno2",
+      "role": "base",
+      "sourceId": "deno2-base-newyork-test",
+      "projectCommand": [
+        "deno",
+        "task",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "deno2-base-newyork-test.stdout.log",
+          "bytes": 72633,
+          "sha256": "4a7225ea127fa68bbd198ae84dc4c8a8768bd828f82632828d0dae742e8ffd76"
+        },
+        {
+          "sourceId": "deno2-base-newyork-test.stderr.log",
+          "bytes": 1255,
+          "sha256": "94eccf7347e3ccd8794ba3cd1cb6492c3c325315b6279e5321d82040e1b5f266"
+        },
+        {
+          "sourceId": "deno2-base-newyork-test.receipt.json",
+          "bytes": 425,
+          "sha256": "2282871427021c6265c17d8b50a86cefc96009df38dbf2eaf7f5ef1ea21bdc51"
+        }
+      ]
+    },
+    {
+      "runtime": "deno2",
+      "role": "candidate",
+      "sourceId": "deno2-candidate-precommit",
+      "projectCommand": [
+        "deno",
+        "task",
+        "pre-commit"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "deno2-candidate-precommit.stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "deno2-candidate-precommit.stderr.log",
+          "bytes": 166,
+          "sha256": "00185c282cab501b8f30d3024b3f3b3c03a0680c5c117a8c4441a374180fc8c4"
+        },
+        {
+          "sourceId": "deno2-candidate-precommit.receipt.json",
+          "bytes": 573,
+          "sha256": "1959d8c0cf98903233208d71d1bc2d1dd4b99099111e6d3e741a2d171b07133e"
+        }
+      ]
+    },
+    {
+      "runtime": "deno2",
+      "role": "candidate",
+      "sourceId": "deno2-candidate-test",
+      "projectCommand": [
+        "deno",
+        "task",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "deno2-candidate-test.stdout.log",
+          "bytes": 73129,
+          "sha256": "45be1cae42ab48bfa3d45a66bf0c24f91b22fbdf5ae0006d9e3322f0197dc806"
+        },
+        {
+          "sourceId": "deno2-candidate-test.stderr.log",
+          "bytes": 1299,
+          "sha256": "86a550e2590e1899b88fca70d52166ff470a14a8408464a3d314b1fbb8bd33e7"
+        },
+        {
+          "sourceId": "deno2-candidate-test.receipt.json",
+          "bytes": 566,
+          "sha256": "9f310f470e72808029c2438d0a56f9c148b1f4c54ebc853ec231401a471e4360"
+        }
+      ]
+    },
+    {
+      "runtime": "deno2",
+      "role": "candidate",
+      "sourceId": "deno2-candidate-publish-dryrun",
+      "projectCommand": [
+        "deno",
+        "publish",
+        "--dry-run"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "deno2-candidate-publish-dryrun.stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "sourceId": "deno2-candidate-publish-dryrun.stderr.log",
+          "bytes": 820,
+          "sha256": "5e187f53911a58c8969e4ce73c9cb3fa3594b39a63bb46a7b0e90e387d504efa"
+        },
+        {
+          "sourceId": "deno2-candidate-publish-dryrun.receipt.json",
+          "bytes": 574,
+          "sha256": "01ded337bf118c0c7c4d94bf960651f922a740807d205919eaa690c0786766bb"
+        }
+      ]
+    },
+    {
+      "runtime": "deno2",
+      "role": "candidate",
+      "sourceId": "deno2-candidate-newyork-test",
+      "projectCommand": [
+        "deno",
+        "task",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "deno2-candidate-newyork-test.stdout.log",
+          "bytes": 73130,
+          "sha256": "6cd0c578c1b4cb9bd22abdfffa74910ba6cd9926ed61706b5030455f5f922480"
+        },
+        {
+          "sourceId": "deno2-candidate-newyork-test.stderr.log",
+          "bytes": 1299,
+          "sha256": "86a550e2590e1899b88fca70d52166ff470a14a8408464a3d314b1fbb8bd33e7"
+        },
+        {
+          "sourceId": "deno2-candidate-newyork-test.receipt.json",
+          "bytes": 604,
+          "sha256": "4f2283a57ea16f5dc7a9da0b0c1a8062edf35ff2e7038f5dfcba2aa35378d674"
+        }
+      ]
+    },
+    {
+      "runtime": "bun",
+      "role": "base",
+      "sourceId": "bun-base-install",
+      "projectCommand": [
+        "bun",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "bun-base-install.stdout.log",
+          "bytes": 229,
+          "sha256": "e9f96698c110d19eab7d1c9b53423965891daee60c0d72364127e69f9fba78ce"
+        },
+        {
+          "sourceId": "bun-base-install.stderr.log",
+          "bytes": 79,
+          "sha256": "10d03c4bc6f05f694393b5657eeebbd4bd73e9f660dc74d73c63fa1589cc3ca6"
+        },
+        {
+          "sourceId": "bun-base-install.receipt.json",
+          "bytes": 372,
+          "sha256": "17040a3ae5f9c41781101e9417aef0b88e79383eb9af994ad591ecddf2f070f6"
+        }
+      ]
+    },
+    {
+      "runtime": "bun",
+      "role": "base",
+      "sourceId": "bun-base-test",
+      "projectCommand": [
+        "bun",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "bun-base-test.stdout.log",
+          "bytes": 28,
+          "sha256": "bbe6a94c29cc8d3ff5a1792a5abae1f1122aed0642111b52036ab7e0b2b2ca47"
+        },
+        {
+          "sourceId": "bun-base-test.stderr.log",
+          "bytes": 50275,
+          "sha256": "7daae905b0ad2322a5eda257c82e0c8ea064109623063b116e1462fe3ac961f7"
+        },
+        {
+          "sourceId": "bun-base-test.receipt.json",
+          "bytes": 368,
+          "sha256": "c9d18f6cfb0871dcbaaa49448420d6bf93176f2e04bc98e2df0ab7e67b6ce100"
+        }
+      ]
+    },
+    {
+      "runtime": "bun",
+      "role": "candidate",
+      "sourceId": "bun-candidate-install",
+      "projectCommand": [
+        "bun",
+        "install"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "bun-candidate-install.stdout.log",
+          "bytes": 233,
+          "sha256": "17b30603dc35e0cf468d6686b49e957b1084e4b772c0bd8e27005c7e0ab769d6"
+        },
+        {
+          "sourceId": "bun-candidate-install.stderr.log",
+          "bytes": 77,
+          "sha256": "d0f30d3fcce592e767e9b728168294da87df981f9d1d10df7318fd0360e089f2"
+        },
+        {
+          "sourceId": "bun-candidate-install.receipt.json",
+          "bytes": 554,
+          "sha256": "e54275f0cde6221cdd1218ff72d4e509b138da2902fb3c4dc708b58fdaaec49d"
+        }
+      ]
+    },
+    {
+      "runtime": "bun",
+      "role": "candidate",
+      "sourceId": "bun-candidate-test",
+      "projectCommand": [
+        "bun",
+        "test"
+      ],
+      "exitCode": 0,
+      "sourceArtifacts": [
+        {
+          "sourceId": "bun-candidate-test.stdout.log",
+          "bytes": 28,
+          "sha256": "bbe6a94c29cc8d3ff5a1792a5abae1f1122aed0642111b52036ab7e0b2b2ca47"
+        },
+        {
+          "sourceId": "bun-candidate-test.stderr.log",
+          "bytes": 50603,
+          "sha256": "5a17b9cb2a15f7d2c6388a8bcfa56ff35f233c08825dcff3ca624b811bfb34d3"
+        },
+        {
+          "sourceId": "bun-candidate-test.receipt.json",
+          "bytes": 550,
+          "sha256": "c0a3b8a4e940129af4a758d8bb1d93a6c03d94f8d2f65a810d1d7e4532eb0fd4"
+        }
+      ]
+    }
+  ],
+  "setupEvidence": [
+    {
+      "sourceId": "node18-clean-base-install",
+      "exitCode": 0,
+      "elapsedSeconds": 4.256196737289429,
+      "stdoutSHA256": "5efd47a1cf83640de51a0e53850d4968943412baff9606f075cd2834e4f28a79",
+      "stderrSHA256": "07d11763259ae228f9a49a03b313cf9967b722d26b01300d1de3236f5d3c11f2",
+      "receiptSHA256": "db639bd63709619b9419458adab084fd4122bcb5c136c93243d6804da5727acf"
+    },
+    {
+      "sourceId": "node18-candidate-installer-recovery-install",
+      "exitCode": 0,
+      "elapsedSeconds": 9.285084009170532,
+      "stdoutSHA256": "1c8d83c4127abe53c7e61c166c8437aae17ad5cc8994f04194ca80c362946e8a",
+      "stderrSHA256": "07d11763259ae228f9a49a03b313cf9967b722d26b01300d1de3236f5d3c11f2",
+      "receiptSHA256": "1cbad30df6fe651830793dfb99cd0b03b31685cbe1cdd30e8103c7c17b361fed"
+    },
+    {
+      "sourceId": "node20-base-recovery-install",
+      "exitCode": 0,
+      "elapsedSeconds": 289.9986801147461,
+      "stdoutSHA256": "aee59c27844d137be7a229ffce9904d17a4afd6a38ddcee93fb81ed99868d797",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receiptSHA256": "48cf53697bda63fa89b68532f375486ce0290dd91446c1b5967b65781ba93e07"
+    },
+    {
+      "sourceId": "node20-candidate-recovery-install",
+      "exitCode": 0,
+      "elapsedSeconds": 283.1901865005493,
+      "stdoutSHA256": "1e117afa3949e168edd06796bc0ec3b36b1a29ab50f5be54327b2e947c184555",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receiptSHA256": "9c6e3ff5409ef3e1d51363603303e9273f305819f4f3786bd38eb8357d80769c"
+    }
+  ],
+  "setupLimits": [
+    "Node18 original global npm10.8.2 attempts stalled and were stopped; the selected clean baseline and candidate use official supported task-only npm10.9.9. Runtime18.20.8, source, project dependency declarations and CI files remain unchanged. The project does not pin npm. This does not establish the cause of the earlier stalls.",
+    "Node20 uses original npm10.8.2. Node18/20 successful setups use task-only fetch-timeout60000,fetch-retries1,maxsockets1,audittrue. No paid service or model is used.",
+    "Node26 npm11.20.0 emits its default esbuild install-script approval notice. No approval was forced and this does not claim every third-party lifecycle script executed.",
+    "Normal npm install resolves from the unchanged declarations; identical physical dependency layouts or module bytes are not claimed. Node20 locks differ in25 package placements, including4 packages reported installed; versions, registry tarballs, integrity and other complete package-record contents match. Matching npm ls output proves only the reported logical graph, not the physical layout."
+  ],
+  "buildCoverage": "npm run pre-commit executes original typecheck and all tests. npm run build executes original clean, version check, typecheck, all tests and distribution build. These execute the configured Node24 check/version/build commands through the unchanged project scripts, not a hosted workflow.",
+  "boundaries": [
+    "Local Linux checks do not assert upstream hostedCI success.",
+    "Deno publish --dry-run simulated publication; nothing was published.",
+    "Earlier stalled setup attempts and repair-base invalid optional dependency tree are superseded evidence and are not counted as passing clean runs."
+  ],
+  "lockfileAudit": {
+    "comparisonComplete": true,
+    "sourceSHA256": "51bd71ca48f22055804cc5ca0a4ea6bd56a6ab4b1bd38b9747c8865a77d4026a",
+    "sourceBytes": 48555,
+    "runtimeLockHashes": [
+      {
+        "runtime": "node18",
+        "baseSHA256": "72ba91748bb23d3f0de6358a356fd831d418418c445594f47213eec480787932",
+        "candidateSHA256": "72ba91748bb23d3f0de6358a356fd831d418418c445594f47213eec480787932",
+        "rawBytesIdentical": true
+      },
+      {
+        "runtime": "node20",
+        "baseSHA256": "9201853437cc29217f6608e3788fa9f7c0084a9986369a6b72023bbe3c84e957",
+        "candidateSHA256": "72ba91748bb23d3f0de6358a356fd831d418418c445594f47213eec480787932",
+        "rawBytesIdentical": false
+      },
+      {
+        "runtime": "node22",
+        "baseSHA256": "72ba91748bb23d3f0de6358a356fd831d418418c445594f47213eec480787932",
+        "candidateSHA256": "72ba91748bb23d3f0de6358a356fd831d418418c445594f47213eec480787932",
+        "rawBytesIdentical": true
+      },
+      {
+        "runtime": "node24",
+        "baseSHA256": "a4e8d84968d58ccf0a5c6b9dbf7782eb7e4413c9bc083a3345d1a61d7d022070",
+        "candidateSHA256": "a4e8d84968d58ccf0a5c6b9dbf7782eb7e4413c9bc083a3345d1a61d7d022070",
+        "rawBytesIdentical": true
+      },
+      {
+        "runtime": "node26",
+        "baseSHA256": "a4e8d84968d58ccf0a5c6b9dbf7782eb7e4413c9bc083a3345d1a61d7d022070",
+        "candidateSHA256": "a4e8d84968d58ccf0a5c6b9dbf7782eb7e4413c9bc083a3345d1a61d7d022070",
+        "rawBytesIdentical": true
+      },
+      {
+        "runtime": "deno2",
+        "baseSHA256": "386ac3f301cdf3a4bc46fec657322e5d44d2fcd6960b52915d0181c1c7479641",
+        "candidateSHA256": "386ac3f301cdf3a4bc46fec657322e5d44d2fcd6960b52915d0181c1c7479641",
+        "rawBytesIdentical": true
+      },
+      {
+        "runtime": "bun",
+        "baseSHA256": "17c5e206211a5d6f665c5fdb83870906640112998440eabb749eba8cd4af6c14",
+        "candidateSHA256": "17c5e206211a5d6f665c5fdb83870906640112998440eabb749eba8cd4af6c14",
+        "rawBytesIdentical": true
+      }
+    ],
+    "node20": {
+      "recordsPerLock": 96,
+      "samePathFullRecordsIdentical": 71,
+      "placementMovesWithFullRecordsIdentical": 25,
+      "movedPackagesReportedInstalled": [
+        "@jridgewell/gen-mapping",
+        "@jridgewell/resolve-uri",
+        "@jridgewell/trace-mapping",
+        "@typescript/typescript-linux-x64"
+      ],
+      "versionResolvedIntegrityOsCpuOptionalDifferences": [],
+      "logicalNpmLsRawSHA256": "e7f45ca2d2a315913d78369e218daf9604a105f6dfed16fda1cef95213411cdf",
+      "logicalGraphEqual": true,
+      "npmLsProblems": [],
+      "physicalNodeModulesEqualityProven": false,
+      "testEntryRecords": "tsx/esbuild/native linux-x64 esbuild lock paths and complete records unchanged; this does not constitute a complete dynamic module-load trace."
+    },
+    "interpretation": "The original successful Node20 tests are retained with this quantified setup boundary. No fresh rerun, global repair or physical-layout equality is claimed. Separate same-environment Node24/Windows red-green regressions establish the callback failure."
+  }
+}

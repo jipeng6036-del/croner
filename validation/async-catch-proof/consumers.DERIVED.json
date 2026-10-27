@@ -1,0 +1,111 @@
+{
+  "kind": "DERIVED_CURATED_SUMMARY_NOT_RAW_LOG",
+  "sourceCommits": {
+    "baseline": "ecf62fdc4f9584869140aad7536e2b320e9a923b",
+    "candidate": "511b29052629df0d3c95c53311bd71a7dbc7eb71"
+  },
+  "rows": [
+    {
+      "role": "base",
+      "platform": "Windows",
+      "runtime": "v24.14.0",
+      "archiveSHA256": "0bf9cde06124f087a26ce067a4b75f40743d521b18d9bb9e7a126f402794ece4",
+      "probeSHA256": "c8d177c9b4730fd2b2e0e30a0e7650f7984a4d0102c808966f3e1b59bc55df9d",
+      "cases": 48,
+      "expectedBehaviorObserved": 48,
+      "diagnosticBugFatalCases": 15,
+      "originalJobFatalControls": 3,
+      "survivingContractCases": 30,
+      "limits": "UMD is genuine advertised bundle in nativeNode vm, not browser/DOM validation. No runtime exception/rejection listeners installed. Existing catchfalse fatal controls intentionally remain fatal."
+    },
+    {
+      "role": "candidate",
+      "platform": "Windows",
+      "runtime": "v24.14.0",
+      "archiveSHA256": "5224222baca309f206c4ffac047a838e1b5cbecc1f2030308aa6c1a3c2885b56",
+      "probeSHA256": "c8d177c9b4730fd2b2e0e30a0e7650f7984a4d0102c808966f3e1b59bc55df9d",
+      "cases": 48,
+      "expectedBehaviorObserved": 48,
+      "diagnosticBugFatalCases": 0,
+      "originalJobFatalControls": 3,
+      "survivingContractCases": 45,
+      "limits": "UMD is genuine advertised bundle in nativeNode vm, not browser/DOM validation. No runtime exception/rejection listeners installed. Existing catchfalse fatal controls intentionally remain fatal."
+    },
+    {
+      "role": "base",
+      "platform": "Linux",
+      "runtime": "v24.22.1",
+      "archiveSHA256": "0bf9cde06124f087a26ce067a4b75f40743d521b18d9bb9e7a126f402794ece4",
+      "probeSHA256": "c8d177c9b4730fd2b2e0e30a0e7650f7984a4d0102c808966f3e1b59bc55df9d",
+      "cases": 48,
+      "expectedBehaviorObserved": 48,
+      "diagnosticBugFatalCases": 15,
+      "originalJobFatalControls": 3,
+      "survivingContractCases": 30,
+      "limits": "UMD actual advertised bundle evaluated in native NodeVM; no browser/DOM claim. Original catchfalse tick remains intentionally fatal. Same Windows-built tarballs, not Linux rebuilds."
+    },
+    {
+      "role": "candidate",
+      "platform": "Linux",
+      "runtime": "v24.22.1",
+      "archiveSHA256": "5224222baca309f206c4ffac047a838e1b5cbecc1f2030308aa6c1a3c2885b56",
+      "probeSHA256": "c8d177c9b4730fd2b2e0e30a0e7650f7984a4d0102c808966f3e1b59bc55df9d",
+      "cases": 48,
+      "expectedBehaviorObserved": 48,
+      "diagnosticBugFatalCases": 0,
+      "originalJobFatalControls": 3,
+      "survivingContractCases": 45,
+      "limits": "UMD actual advertised bundle evaluated in native NodeVM; no browser/DOM claim. Original catchfalse tick remains intentionally fatal. Same Windows-built tarballs, not Linux rebuilds."
+    }
+  ],
+  "totalExpectedOutcomesObserved": 192,
+  "countMeaning": "Expected outcomes include intentionally fatal baseline handler cases and unchanged catch:false fatal controls. This is not a claim that192 processes exited0.",
+  "formats": [
+    "CJS require",
+    "ESM import",
+    "UMD bundle in Node VM context"
+  ],
+  "browserValidation": false,
+  "provenance": [
+    {
+      "sourceId": "windows-base-consumer-summary",
+      "kind": "DERIVED_PRODUCER_SUMMARY",
+      "sha256": "7b2123291638856cb9dab57c89bddc70e549ce0632537b7463eed89a39769520",
+      "bytes": 612
+    },
+    {
+      "sourceId": "windows-candidate-consumer-summary",
+      "kind": "DERIVED_PRODUCER_SUMMARY",
+      "sha256": "7cecbdfb89757dd767e79d6172f61849cd7ea3a086047f4e396521fabacec0fe",
+      "bytes": 616
+    },
+    {
+      "sourceId": "linux-base-consumer-summary",
+      "kind": "DERIVED_PRODUCER_SUMMARY",
+      "sha256": "22826fc7fa78c78ca688617f2cbc103e169cc8d721bb6233f5889f0d261e79b8",
+      "bytes": 585,
+      "exportArchiveSHA256": "938c9834e50e4e19a56c9bc814bf7fb081b05eda63629cb59b8d56f41d1a3db5",
+      "exportMember": "evidence/base/summary.json"
+    },
+    {
+      "sourceId": "linux-candidate-consumer-summary",
+      "kind": "DERIVED_PRODUCER_SUMMARY",
+      "sha256": "7debb6f354f5f8a61c3eb2c6141cb8d18b4977461b08d8e2695c8a4bb5ebe8fd",
+      "bytes": 589,
+      "exportArchiveSHA256": "938c9834e50e4e19a56c9bc814bf7fb081b05eda63629cb59b8d56f41d1a3db5",
+      "exportMember": "evidence/candidate/summary.json"
+    }
+  ],
+  "canonicalBuildComparison": {
+    "sourceReviewSHA256": "0f41cc122d8d5822954018bd8979d2a9a26f7faeb68691af75ec09a951bff155",
+    "sourceReviewBytes": 47427,
+    "meaning": "For both roles, all5 compiled dist members in the Windows-built package exactly match the independently built canonical Linux package; README/package.json differ only in Windows CRLF vs LF, LICENSE is raw identical. Whole tgz bytes are not equal."
+  },
+  "consumerFinalReceipt": {
+    "sha256": "893cdfd0cbb7c4bd1ef89c49782e6f0bd45506a625db185ed59d60e9b3d0a0ec",
+    "bytes": 177199,
+    "status": "PASS_INDEPENDENT_INSTALLED_PACKAGE_CONSUMERS_AND_FINAL_SOURCE_REVIEW"
+  },
+  "publicReproducerBoundary": "The small reproduce.mjs script was executed against both installed packages on Windows Node24.14.0 only; Linux Node24.22.1 ran the complete48-case-per-revision consumer matrix instead.",
+  "publicationState": "FINAL_CONSUMER_RECEIPT; public subtree still requires final gate curation and independent review"
+}
